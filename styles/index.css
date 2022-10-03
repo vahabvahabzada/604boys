@@ -18,3 +18,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.wrapper {
+  max-width: 1200px;
+  margin-left: 36px;
+  margin-right: 32px;
+}
