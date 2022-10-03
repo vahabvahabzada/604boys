@@ -1,0 +1,17 @@
+@import url("./header.css");
+@import url("./intro-section.css");
+@import url("./intro-section.css");
+@import url("./format-section.css");
+@import url("./learning-section.css");
+@import url("./programme-section.css");
+@import url("./passed-section.css");
+@import url("./info-section.css");
+
+/* Some global variables */
+@import url("./variables.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
