@@ -2,6 +2,7 @@
 @import url("./intro-section.css");
 @import url("./intro-section.css");
 @import url("./format-section.css");
+@import url("./course-section.css");
 @import url("./learning-section.css");
 @import url("./programme-section.css");
 @import url("./passed-section.css");
@@ -19,8 +20,14 @@
   box-sizing: border-box;
 }
 
-.wrapper {
+html {
+  font-size: 10px;
+}
+
+header,
+section,
+footer {
+  padding: 50px 32px 50px 36px;
   max-width: 1200px;
-  margin-left: 36px;
-  margin-right: 32px;
+  margin: 0 auto;
 }
