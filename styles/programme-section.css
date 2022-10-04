@@ -1,13 +1,13 @@
 /*mobile*/
 @media(min-width:320px) and (max-width:991px){
-    .chart{
+   #programme .chart{
         height: 152.8389129638672px;
         width: 185.92295837402344px;
         border-radius: 13.979166030883789px;
         margin-left: 95px;
     }
 
-    .img{
+   #programme .img{
         height: 74.5555648803711px;
         width: 185.92295837402344px;
         /*left: 95px;
@@ -15,12 +15,12 @@
         background-color: yellow;*/
     }
 
-    img{
+   #programme img{
         height: 74.5555648803711px;
         width: 185.92295837402344px;
     }
 
-    h1{
+    #programme h1{
         width: 421.7px;
         height: 43.34px;
         font-family: 'Roboto Slab';
@@ -32,7 +32,7 @@
         color: #000000;
     }
 
-    .chart h1{
+   #programme .chart h1{
         width: 170.08px;
         height: 18.17px;
         font-family: 'Roboto';
@@ -44,7 +44,7 @@
         color: #000000;
     }
 
-    .about{
+   #programme .about{
         margin-top: 14.91px;
         width: 170.08px;
         height: 29.36px;
@@ -65,31 +65,31 @@
 
     /*tablet*/
     @media(min-width:992px) and (max-width:1279px){
-        #charts{
+       #programme #charts{
             display:flex;
             flex-wrap: wrap;
             margin-left: 48.65px;
             margin-top: 55.02px;
         }
 
-        .chart{
+       #programme .chart{
             height: 189.9666748046875px;
             width: 231.0875244140625px;
             margin-left:48.65px;
             border-radius: 17.375px;
         }
 
-        .img{
+       #programme .img{
             height: 92.66667938232422px;
             width: 231.0875244140625px;
         }
 
-        img{
+       #programme img{
             height: 92.66667938232422px;
             width: 231.0875244140625px;
         }
 
-        h1{
+        #programme h1{
             width: 524.15px;
             height: 53.86px;
             font-family: 'Roboto Slab';
@@ -101,7 +101,7 @@
             margin-left: 92.95px;
         }
 
-        .chart h1{
+       #programme .chart h1{
             width: 170.08px;
             height: 18.17px;
             font-family: 'Roboto';
@@ -112,7 +112,7 @@
             margin-left: 11.58px;
             color: #000000;
         }
-        .about{
+       #programme .about{
             margin-top: 18.53px;
             width: 170.08px;
             height: 29.36px;
@@ -133,27 +133,29 @@
 
         /*desktop*/
         @media(min-width:1280px){
-            #charts{
+            #programme #charts{
                 display:flex;
                 flex-wrap: wrap;
+                column-gap: 20px;
+                /*flex-grow: 33%;*/
                 margin-left: 84px;
                 margin-top: 95px;
             }
-            .chart{
+           #programme .chart{
                 height: 328px;
                 width: 399px;
                 border-radius: 30px;
                 margin-left: 37px;
             }
-            .img{
+           #programme .img{
                 height: 160px;
                 width: 399px;
             }
-            img{
+           #programme img{
                 height: 160px;
                 width: 399px;
             }
-            h1{
+           #programme h1{
                 width: 905px;
                 height: 93px;
                 font-family: 'Roboto Slab';
@@ -164,7 +166,7 @@
                 margin-left: 158px;
                 color: #000000;
             }
-            .chart h1{
+           #programme .chart h1{
                 width: 170.08px;
                 height: 18.17px;
                 font-family: 'Roboto';
@@ -176,7 +178,7 @@
                 color: #000000;
             
             }
-            .about{
+           #programme .about{
                 margin-top: 32px;
                 width: 170.08px;
                 height: 29.36px;
