@@ -1,0 +1,35 @@
+
+#learning h2{
+    margin-bottom: 15.66px;
+    font-size:26px;
+    color: #000000;
+}
+#learning ul{
+    color: #000000;
+    font-size: 12px;
+    list-style-position: inside;
+}
+@media (min-width:992px) {
+    #learning h2{
+        margin-bottom: 18.66px;
+        font-size:32px;
+      
+    }
+    #learning ul{
+        max-width:   383.41px;
+        font-size: 14px;
+        list-style-position: inside;
+    }
+}
+@media (min-width:1280px) {
+    #learning h2{
+        margin-bottom: 21px;
+        font-size:55px;
+      
+    }
+    #learning ul{
+        max-width:   662px;
+        font-size: 29px;
+        list-style-position: inside;
+    }
+}
