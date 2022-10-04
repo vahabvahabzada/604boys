@@ -1,0 +1,125 @@
+#course img {
+  width: 100%;
+}
+
+#course h2 {
+  font-family: "Roboto Slab", serif;
+  font-size: 2.6rem;
+  margin-bottom: 28px;
+}
+
+#course p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+#course span {
+  line-height: 1.33;
+}
+
+#course span.title {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+#course ul {
+  list-style-type: none;
+}
+
+#course .course-container {
+  margin-bottom: 60px;
+}
+
+#course .course-container .content {
+  flex-basis: 40%;
+}
+
+#course .course-container .image-container {
+  max-width: 220px;
+  width: 48%;
+  margin: 0 auto;
+}
+
+#course .task-container .task-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+#course .task-container .task-list li {
+  display: flex;
+  flex-direction: column;
+  max-width: 95px;
+  row-gap: 8px;
+}
+
+#course .task-container .image-container {
+  display: none;
+}
+/* Tablet */
+@media (min-width: 830px) {
+  #course h2 {
+    font-size: 3.2rem;
+  }
+
+  #course p {
+    font-size: 1.4rem;
+  }
+
+  #course span {
+    font-size: 1.1rem;
+  }
+
+  #course span.title {
+    font-size: 1.5rem;
+  }
+
+  #course .course-container {
+    display: flex;
+    align-items: center;
+  }
+
+  #course .course-container .image-container {
+    flex-basis: 25%;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1400px) {
+  #course h2 {
+    font-size: 5.5rem;
+  }
+
+  #course p {
+    font-size: 2.4rem;
+  }
+
+  #course span {
+    font-size: 1.8rem;
+  }
+
+  #course span.title {
+    font-size: 2.5rem;
+  }
+
+  #course .task-container {
+    display: flex;
+    align-items: center;
+    column-gap: 132px;
+  }
+
+  #course .task-container .task-list li {
+    max-width: 150px;
+  }
+
+  #course .task-container .image-container {
+    display: block;
+    flex-basis: 20%;
+  }
+
+  #course .course-container .content {
+    flex-basis: 60%;
+  }
+}
