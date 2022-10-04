@@ -1,78 +1,127 @@
-.passedkurs {
-    width: 257px;
-    font-size: 2.6rem;
-    line-height: 26.36px;
-    padding-bottom: 11px;
+#passed h2 {
+  font-family: "Roboto Slab";
+  max-width: 257px;
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 1.01;
+  margin-bottom: 26px;
 }
 
-.rectangleumumi {
-    max-width:308px ;
-    height: 248px;
-    border-radius: 13.98px;
-    background:rgba(255, 255, 255, 1);
-    ;
-
+#passed img {
+  width: 100%;
 }
 
-.metn {
-    width: 266px;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    padding-left: 21px;
-    padding-top: 18px;
+#passed .card {
+  max-width: 458px;
+  border-radius: 13.98px;
+  background: rgba(255, 255, 255, 1);
+  padding: 18px 21px 13px;
 }
-.ekaterinaadi {
-    font-size: 1.4rem;
-    margin-left: 114px;
-   margin-top: 39px;
-   height: 32.73px;
+
+#passed .content {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 16px;
 }
-.fb {
-    width: 14.91px;
-    margin-top: 0px;
-    margin-left: 114.63px;
-   
+
+#passed .profile-container {
+  display: flex;
 }
-.profile {
-    width: 80px;
-    
-    margin-left: -112px;
-    margin-top: -60px;
+
+#passed .profile-image {
+  width: 80px;
+}
+
+#passed .profile-container .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#passed .name {
+  font-size: 1.4rem;
+  margin-bottom: 16px;
+}
+
+#passed .fb {
+  width: 14.91px;
+  margin-top: 0px;
 }
 
 #passed {
-    background: rgba(239, 239, 239, 1);
-
+  background: rgba(239, 239, 239, 1);
 }
 
-.rectangleumumi {
-    box-shadow: 0.46597224473953247px 0.46597224473953247px 9.31944465637207px 0px rgba(0, 0, 0, 0.25);
-    ;
+#passed .card {
+  box-shadow: 0.46597224473953247px 0.46597224473953247px 9.31944465637207px 0px
+    rgba(0, 0, 0, 0.25);
 }
 
-@media (min-width:992px) {
-    .passedkurs {
-        width: 571.64px;
-        font-size: 3.2rem;
-    }
-    .rectangleumumi {
-        min-width: 458.12px;
-        margin-top: 19.69px;
-    }
-    .metn {
-        font-size: 1.2rem;
-        width: 405.42px;
-    }
-    .profile {
-        width: 110px;
-        margin-left: -140px;
-    }
-    .ekaterinaadi {
-        font-size: 1.7rem;
-        margin-left: 142.48px;
-    }
-    .fb {
-        margin-left: 142.48px;
-        
-    }
+@media (min-width: 992px) {
+  body #passed {
+    padding-left: 71px;
+  }
+
+  #passed h2 {
+    max-width: 571.64px;
+    font-size: 3.2rem;
+    margin-bottom: 36px;
+  }
+
+  #passed .card {
+    margin-top: 19.69px;
+  }
+
+  #passed .content {
+    font-size: 1.2rem;
+    max-width: 405.42px;
+  }
+
+  #passed .profile-image {
+    width: 100px;
+  }
+
+  #passed .profile-container .name {
+    font-size: 1.7rem;
+    /* margin-left: 142.48px; */
+  }
+}
+
+@media (min-width: 1281px) {
+  body #passed {
+    padding-left: 126px;
+  }
+
+  #passed h2 {
+    max-width: 987px;
+    font-size: 5.5rem;
+    margin-bottom: 50px;
+  }
+
+  #passed .card {
+    max-width: 791px;
+    margin-top: 19.69px;
+    padding: 40px 45px 30px;
+  }
+
+  #passed .content {
+    font-size: 2rem;
+    line-height: 30px;
+    max-width: 700px;
+  }
+
+  #passed .profile-image {
+    width: 160px;
+    margin-right: 32px;
+  }
+
+  #passed .profile-container .name {
+    font-size: 3rem;
+    /* margin-left: 142.48px; */
+  }
+
+  #passed .profile-container .fb {
+    width: 32px;
+    height: 32px;
+  }
 }
