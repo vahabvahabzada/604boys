@@ -1,0 +1,71 @@
+#info {
+    background-color:#9DC9C8;
+}
+.nacalo {
+   margin-bottom: 22px;
+   max-width: 80%;
+   line-height: 26px;
+   font-size: 26px;
+}
+.stoy {
+    width:324px;
+        margin-top: 22px;
+    font-size: 1.2rem;    
+}
+.rubl {
+    font-size: 3.7rem;
+    max-width: 324px;
+   
+
+}
+.dlya {
+    margin-top: 72.23px;
+    width: 138px;
+    font-size: 1.2rem;
+}
+
+.umumibolum {
+    max-width: 138px;
+    font-size: 1rem;
+    margin-top: 8px;
+    
+}
+.umumi {
+    display: flex;
+    margin-top: 72px;
+    
+    
+}
+span {
+    font-size: 1.2rem;
+}
+.umumi div:first-child{
+    margin-right: 12px;
+}
+
+@media (min-width:992px) {
+    .nacalo {
+    font-size:3.2rem ;
+    }
+
+}
+
+
+@media (min-width:1280px) {
+  
+.umumi {
+    font-size: 25px;
+}
+    .nacalo {
+        font-size: 5.5rem;
+    }
+    .rubl {
+        font-size: 8rem;
+    }
+    p{
+        font-size: 2.5rem;
+    }
+    .stoy {
+        width: 481px;
+    }
+}
