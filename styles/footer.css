@@ -1,6 +1,8 @@
 footer {
   background-color: black;
   color: #fff;
+  padding-top: 23px;
+  padding-bottom: 17px;
 }
 
 footer img {
@@ -33,6 +35,7 @@ footer .social-container .social-item:last-child {
 
 footer .contact-container span {
   font-size: 1.2rem;
+  font-weight: 400;
   vertical-align: middle;
 }
 

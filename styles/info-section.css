@@ -1,63 +1,119 @@
 #info {
   background-color: #9dc9c8;
+  padding-top: 62px;
+  padding-bottom: 70px;
 }
-#info .nacalo {
+#info > h2 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  max-width: 224px;
+  font-size: 2.6rem;
   margin-bottom: 22px;
-  max-width: 80%;
-  line-height: 26px;
-  font-size: 26px;
 }
-#info .stoy {
-  width: 324px;
+
+#info .price-container {
   margin-top: 22px;
-  font-size: 1.2rem;
-}
-#info .rubl {
-  font-size: 3.7rem;
-  max-width: 324px;
-}
-#info .dlya {
-  margin-top: 72.23px;
-  width: 138px;
+  margin-bottom: 36px;
   font-size: 1.2rem;
 }
 
-#info .umumibolum {
+#info .price-container p {
+  margin-bottom: 3px;
+}
+
+#info .price {
+  font-weight: 400;
+  font-size: 3.7rem;
+}
+
+#info .content {
   max-width: 138px;
   font-size: 1rem;
   margin-top: 8px;
 }
-#info .umumi {
+
+#info .details {
   display: flex;
-  margin-top: 72px;
+  justify-content: space-between;
+  max-width: 350px;
 }
+
 #info span {
   font-size: 1.2rem;
 }
-#info .umumi div:first-child {
+#info .details div:first-child {
   margin-right: 12px;
 }
 
+@media (min-width: 520px) {
+  #info > h2 {
+    max-width: 100%;
+  }
+}
+
 @media (min-width: 992px) {
-  #info .nacalo {
+  #info {
+    padding-top: 103px;
+    padding-bottom: 107px;
+  }
+
+  #info > h2 {
     font-size: 3.2rem;
+  }
+
+  #info .price-container p {
+    font-size: 1.4rem;
+  }
+
+  #info .price {
+    font-size: 4.6rem;
+  }
+
+  #info .detail span {
+    font-size: 1.4rem;
   }
 }
 
 @media (min-width: 1280px) {
-  #info .umumi {
-    font-size: 25px;
+  #info {
+    padding-top: 180px;
+    padding-bottom: 185px;
   }
-  #info .nacalo {
+
+  #info > h2 {
     font-size: 5.5rem;
+    margin-bottom: 50px;
   }
-  #info .rubl {
-    font-size: 8rem;
+
+  #info .price-container {
+    margin-bottom: 43px;
   }
-  #info p {
+
+  #info .price-container p {
     font-size: 2.5rem;
   }
-  #info .stoy {
-    width: 481px;
+
+  #info .price {
+    font-size: 8rem;
+  }
+
+  #info .detail {
+    max-width: 294px;
+    width: 100%;
+  }
+
+  #info .detail span {
+    font-size: 2.5rem;
+  }
+
+  #info .detail .content {
+    font-size: 1.8rem;
+    max-width: fit-content;
+  }
+
+  #info .details {
+    justify-content: flex-start;
+    column-gap: 70px;
+    max-width: unset;
   }
 }
