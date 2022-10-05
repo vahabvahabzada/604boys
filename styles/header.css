@@ -2,3 +2,17 @@ header img {
   width: 52.19px;
   height: 30.75px;
 }
+
+@media (min-width: 830px) {
+  header img {
+    width: 64.87px;
+    height: 38.23px;
+  }
+}
+
+@media (min-width: 1400px) {
+  header img {
+    width: 112px;
+    height: 66px;
+  }
+}
