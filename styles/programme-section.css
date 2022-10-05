@@ -1,193 +1,186 @@
 /*mobile*/
-@media(min-width:320px) and (max-width:991px){
-    .chart{
-        height: 152.8389129638672px;
-        width: 185.92295837402344px;
-        border-radius: 13.979166030883789px;
-        margin-left: 95px;
-    }
+@media (max-width: 991px) {
+  #programme #charts {
+    display: flex;
+    column-gap: 24px;
+    flex-wrap: wrap;
+  }
 
-    .img{
-        height: 74.5555648803711px;
-        width: 185.92295837402344px;
-        /*left: 95px;
-        top: 2048px;
-        background-color: yellow;*/
-    }
+  #programme .chart {
+    height: 152.8389129638672px;
+    max-width: 185.92295837402344px;
+    border-radius: 13.979166030883789px;
+    margin: 0 auto 24px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
 
-    img{
-        height: 74.5555648803711px;
-        width: 185.92295837402344px;
-    }
+  #programme img {
+    width: 100%;
+  }
 
-    h1{
-        width: 421.7px;
-        height: 43.34px;
-        font-family: 'Roboto Slab';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 101.38%;
-        margin-left: 34px;
-        color: #000000;
-    }
+  #programme h2 {
+    max-width: 421.7px;
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 101.38%;
+    margin-bottom: 46px;
+    color: #000000;
+  }
 
-    .chart h1{
-        width: 170.08px;
-        height: 18.17px;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 130%;
-        margin-left: 9.32px;
-        color: #000000;
-    }
+  #programme .chart h3 {
+    max-width: 170.08px;
+    height: 18.17px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 130%;
+    margin-left: 9.32px;
+    color: #000000;
+  }
 
-    .about{
-        margin-top: 14.91px;
-        width: 170.08px;
-        height: 29.36px;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 130%;
-        margin-left: 8.85px;
-        margin-top: 14.91px;
-        margin-bottom: 10.72px;
-        color: #000000;
-    }
-    }
+  #programme .about p {
+    margin-top: 14.91px;
+    width: 170.08px;
+    height: 29.36px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    margin-left: 8.85px;
+    margin-top: 14.91px;
+    margin-bottom: 10.72px;
+    color: #000000;
+  }
+}
 
+/*tablet*/
+@media (min-width: 992px) and (max-width: 1279px) {
+  #programme #charts {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 48.65px;
+    margin-top: 55.02px;
+  }
 
+  #programme .chart {
+    height: 189.9666748046875px;
+    width: 231.0875244140625px;
+    margin-left: 48.65px;
+    margin-bottom: 24px;
+    border-radius: 17.375px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
 
+  #programme .img {
+    height: 92.66667938232422px;
+    width: 231.0875244140625px;
+  }
 
-    /*tablet*/
-    @media(min-width:992px) and (max-width:1279px){
-        #charts{
-            display:flex;
-            flex-wrap: wrap;
-            margin-left: 48.65px;
-            margin-top: 55.02px;
-        }
+  #programme img {
+    height: 92.66667938232422px;
+    width: 231.0875244140625px;
+  }
 
-        .chart{
-            height: 189.9666748046875px;
-            width: 231.0875244140625px;
-            margin-left:48.65px;
-            border-radius: 17.375px;
-        }
+  #programme h2 {
+    max-width: 524.15px;
+    height: 53.86px;
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 101.38%;
+    color: #000000;
+    margin-left: 92.95px;
+  }
 
-        .img{
-            height: 92.66667938232422px;
-            width: 231.0875244140625px;
-        }
+  #programme .chart h3 {
+    max-width: 170.08px;
+    height: 18.17px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 130%;
+    margin-left: 11.58px;
+    color: #000000;
+  }
+  #programme .about p {
+    margin-top: 18.53px;
+    width: 170.08px;
+    height: 29.36px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    margin-left: 11px;
+    margin-top: 14.91px;
+    margin-bottom: 10.72px;
+    color: #000000;
+  }
+}
 
-        img{
-            height: 92.66667938232422px;
-            width: 231.0875244140625px;
-        }
+/*desktop*/
+@media (min-width: 1280px) {
+  #programme #charts {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    column-gap: 37px;
+    /* margin-left: 84px; */
+    margin-top: 95px;
+  }
+  #programme .chart {
+    flex-basis: 31%;
+    height: 328px;
+    max-width: 399px;
+    border-radius: 30px;
+    margin-bottom: 41px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
 
-        h1{
-            width: 524.15px;
-            height: 53.86px;
-            font-family: 'Roboto Slab';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 32px;
-            line-height: 101.38%;
-            color: #000000;
-            margin-left: 92.95px;
-        }
+  #programme img {
+    width: 100%;
+  }
 
-        .chart h1{
-            width: 170.08px;
-            height: 18.17px;
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 14px;
-            line-height: 130%;
-            margin-left: 11.58px;
-            color: #000000;
-        }
-        .about{
-            margin-top: 18.53px;
-            width: 170.08px;
-            height: 29.36px;
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 12px;
-            line-height: 130%;
-            margin-left: 11px;
-            margin-top: 14.91px;
-            margin-bottom: 10.72px;
-            color: #000000;
-        }
-        }
-
-
-
-
-        /*desktop*/
-        @media(min-width:1280px){
-            #charts{
-                display:flex;
-                flex-wrap: wrap;
-                margin-left: 84px;
-                margin-top: 95px;
-            }
-            .chart{
-                height: 328px;
-                width: 399px;
-                border-radius: 30px;
-                margin-left: 37px;
-            }
-            .img{
-                height: 160px;
-                width: 399px;
-            }
-            img{
-                height: 160px;
-                width: 399px;
-            }
-            h1{
-                width: 905px;
-                height: 93px;
-                font-family: 'Roboto Slab';
-                font-style: normal;
-                font-weight: 700;
-                font-size: 55px;
-                line-height: 101.38%;
-                margin-left: 158px;
-                color: #000000;
-            }
-            .chart h1{
-                width: 170.08px;
-                height: 18.17px;
-                font-family: 'Roboto';
-                font-style: normal;
-                font-weight: 700;
-                font-size: 14px;
-                line-height: 130%;
-                margin-left: 20px;
-                color: #000000;
-            
-            }
-            .about{
-                margin-top: 32px;
-                width: 170.08px;
-                height: 29.36px;
-                font-family: 'Roboto';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 12px;
-                line-height: 130%;
-                margin-left: 19px;
-                margin-top: 14.91px;
-                margin-bottom: 10.72px;
-                color: #000000;
-            }
-            }
+  #programme h2 {
+    max-width: 905px;
+    height: 93px;
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 101.38%;
+    margin-left: 0;
+    color: #000000;
+  }
+  #programme .chart h3 {
+    max-width: 170.08px;
+    height: 18.17px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 130%;
+    margin-left: 20px;
+    color: #000000;
+  }
+  #programme .about p {
+    margin-top: 32px;
+    width: 170.08px;
+    height: 29.36px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    margin-left: 19px;
+    margin-top: 14.91px;
+    margin-bottom: 10.72px;
+    color: #000000;
+  }
+}
