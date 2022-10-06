@@ -38,6 +38,7 @@
 
 #course .course-container .content {
   flex-basis: 40%;
+	max-width: 440px;
 }
 
 #course .course-container .image-container {
@@ -80,6 +81,10 @@
     font-size: 1.5rem;
   }
 
+	#course .course-container .content {
+		max-width: 100%;
+	}
+
   #course .course-container {
     display: flex;
     align-items: center;
@@ -87,6 +92,17 @@
 
   #course .course-container .image-container {
     flex-basis: 25%;
+  }
+
+	 #course .task-container {
+    display: flex;
+    align-items: center;
+    column-gap: 132px;
+  }
+
+	#course .task-container .image-container {
+    display: block;
+    flex-basis: 20%;
   }
 }
 
@@ -113,22 +129,15 @@
     font-size: 2.5rem;
   }
 
-  #course .task-container {
-    display: flex;
-    align-items: center;
-    column-gap: 132px;
-  }
-
   #course .task-container .task-list li {
     max-width: 150px;
   }
 
-  #course .task-container .image-container {
-    display: block;
-    flex-basis: 20%;
+  #course .course-container .content {
+    flex-basis: 58%;
   }
 
-  #course .course-container .content {
-    flex-basis: 60%;
-  }
+	#course .course-container .image-container {
+		max-width: 280px;
+	}
 }
