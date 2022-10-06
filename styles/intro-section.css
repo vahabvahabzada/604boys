@@ -42,7 +42,6 @@
 
 /* h1 */
 #intro h1 {
-  font-family: "Roboto Slab";
   font-weight: 700;
   font-size: 3.7rem;
   line-height: 1.01;
@@ -84,7 +83,7 @@
   font-family: "Roboto Slab";
   font-weight: 400;
   font-size: 1.1rem;
-  line-height: 130%;
+  line-height: 1.3;
   color: #ffffff;
 }
 
@@ -142,21 +141,16 @@
   }
 
   #intro .producer {
+    display: flex;
     padding-top: 30px;
     max-width: unset;
     margin-left: unset;
     margin-right: unset;
-    /* max-width: 304px; */
-    /* height: 206.18px; */
-    display: flex;
     justify-content: center;
-    /* margin-left: 445px; */
-    /* margin-top: -150px; */
   }
 
   /* blue text */
   #intro .blue-text > div {
-    /* max-width: 280.11px; */
     height: 115.83px;
     border-radius: 2.89px;
     padding-left: 15px;
@@ -170,7 +164,6 @@
   #intro .blue-text p {
     max-width: 249.38px;
     height: 65.45px;
-
     font-size: 1.4rem;
   }
 
@@ -211,7 +204,6 @@
 
   #intro h1 {
     max-width: 628px;
-    font-family: "Roboto Slab";
     font-weight: 700;
     font-size: 80px;
   }
@@ -235,13 +227,11 @@
 
   /* blue text */
   #intro .blue-text > div {
-    /* max-width: 483.63px; */
     height: 200px;
     border-radius: 5px;
     padding-left: 26px;
     padding-right: 27px;
     padding-top: 19.26px;
-    /* margin-top: 50px; */
     margin-left: auto;
     margin-right: auto;
   }
@@ -249,12 +239,7 @@
   #intro .blue-text p {
     max-width: 430.59px;
     height: 113px;
-
-    font-family: "Roboto Slab";
-    font-style: normal;
-    font-weight: 400;
     font-size: 2.5rem;
-    line-height: 130%;
   }
 
   #intro .blue-text .producer-name {
