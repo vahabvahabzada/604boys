@@ -1,12 +1,29 @@
-#intro .intro-icons {
+#intro .wrapper {
+  max-width: 720px;
+  padding-top: 24px;
+  padding-bottom: 38px;
+}
+
+#intro .content {
+  flex-basis: 55%;
+}
+
+#intro .details {
   display: flex;
+  align-items: center;
   margin-bottom: 8px;
 }
 
 #intro li {
   list-style: none;
   display: flex;
+  align-items: center;
 }
+
+#intro img {
+  width: 100%;
+}
+
 #intro .icon {
   width: 10px;
   height: 10px;
@@ -14,70 +31,57 @@
 }
 
 #intro .text {
-  width: 65px;
+  max-width: 65px;
   font-weight: 400;
   line-height: 11px;
 }
 
-#intro .intro-icons li {
+#intro .details li {
   margin-right: 12px;
-}
-
-#intro img {
-  max-width: 100%;
 }
 
 /* h1 */
 #intro h1 {
-  width: 292.63px;
   font-family: "Roboto Slab";
-  font-style: normal;
   font-weight: 700;
   font-size: 3.7rem;
-  line-height: 38px;
+  line-height: 1.01;
   margin-bottom: 10px;
 }
 
-#intro p {
-  width: 212.4px;
-  font-family: "Roboto";
-  font-style: normal;
+#intro .content p {
+  max-width: 212.4px;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 15px;
-  color: #000000;
+  line-height: 1.5;
 }
 
 /* producer image */
 
 #intro .producer {
-  max-width: 176px;
+  flex-basis: 45%;
+  max-width: 260px;
   width: 48%;
   margin-left: auto;
 }
 
-#intro .producer img {
-  max-width: 100%;
+/* blue text */
+
+#intro .blue-text {
+  flex-basis: 100%;
+  padding-top: 38px;
 }
 
-/* blue text */
-#intro .blue-text {
-  width: 225.36px;
-  height: 93.19px;
-  border-radius: 2.32px;
+#intro .blue-text > div {
+  width: fit-content;
+  border-radius: 3px;
   background-color: #1e4681;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 9px;
-  margin-top: 47px;
+  padding: 9px 12px 16px;
 }
 
 #intro .blue-text p {
-  width: 200.64px;
-  height: 52.65px;
-
+  max-width: 200.64px;
   font-family: "Roboto Slab";
-  font-style: normal;
   font-weight: 400;
   font-size: 1.1rem;
   line-height: 130%;
@@ -85,65 +89,74 @@
 }
 
 #intro .blue-text .producer-name {
-  height: 21.27px;
-
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 130%;
   text-align: right;
 }
 
-@media (min-width: 830px) {
-  #intro .intro-icons {
+@media (min-width: 768px) {
+  #intro .producer {
+    margin-right: 60px;
+  }
+}
+
+@media (min-width: 992px) {
+  #intro .wrapper {
     display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+  }
+
+  #intro .details {
     margin-bottom: 7.5px;
   }
+
   #intro .icon {
     width: 12px;
     height: 12px;
   }
 
   #intro .text {
-    width: 75.29px;
+    max-width: 75.29px;
     font-size: 1.2rem;
   }
 
-  #intro .intro-icons li {
+  #intro .details li {
     margin-right: 14px;
   }
 
-  /* h1 */
   #intro h1 {
-    width: 363.72px;
-    height: 110.04px;
-
     font-size: 4.6rem;
   }
 
-  #intro p {
-    width: 264px;
+  #intro .content p {
+    max-width: 264px;
     font-size: 1.2rem;
-    color: #000000;
   }
 
   /* producer image */
 
   #intro .producer img {
-    max-width: 100%;
+    width: 45%;
+    max-width: 260px;
   }
 
   #intro .producer {
-    width: 176.07px;
-    height: 206.18px;
-    margin-left: 445px;
-    margin-top: -150px;
+    padding-top: 30px;
+    max-width: unset;
+    margin-left: unset;
+    margin-right: unset;
+    /* max-width: 304px; */
+    /* height: 206.18px; */
+    display: flex;
+    justify-content: center;
+    /* margin-left: 445px; */
+    /* margin-top: -150px; */
   }
 
   /* blue text */
-  #intro .blue-text {
-    width: 280.11px;
+  #intro .blue-text > div {
+    /* max-width: 280.11px; */
     height: 115.83px;
     border-radius: 2.89px;
     padding-left: 15px;
@@ -155,7 +168,7 @@
   }
 
   #intro .blue-text p {
-    width: 249.38px;
+    max-width: 249.38px;
     height: 65.45px;
 
     font-size: 1.4rem;
@@ -170,11 +183,15 @@
 }
 
 /* Desktop */
-@media (min-width: 1400px) {
-  #intro .intro-icons {
-    display: flex;
+@media (min-width: 1281px) {
+  #intro .wrapper {
+    max-width: 100%;
+  }
+
+  #intro .details {
     margin-bottom: 29px;
   }
+
   #intro .icon {
     width: 22px;
     height: 22px;
@@ -182,61 +199,53 @@
   }
 
   #intro .text {
-    width: 130px;
+    max-width: 130px;
     font-size: 2rem;
   }
 
-  #intro .intro-icons li {
+  #intro .detailsli {
     margin-right: 25px;
   }
 
   #intro h1 {
-    width: 628px;
-    height: 190px;
-
+    max-width: 628px;
     font-family: "Roboto Slab";
-    font-style: normal;
     font-weight: 700;
     font-size: 80px;
-    line-height: 101.38%;
   }
 
-  #intro p {
-    width: 414px;
+  #intro .content p {
+    max-width: 414px;
     height: 62px;
-    left: 122px;
-    top: 427px;
-
-    font-family: "Roboto";
-    font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 150%;
+    font-size: 2rem;
+    list-style: 1.5;
   }
   /*producer image */
-
-  #intro img {
-    width: 100%;
-  }
 
   #intro .producer {
     width: 304px;
   }
 
+  #intro .producer img {
+    width: auto;
+  }
+
   /* blue text */
-  #intro .blue-text {
-    width: 483.63px;
+  #intro .blue-text > div {
+    /* max-width: 483.63px; */
     height: 200px;
     border-radius: 5px;
     padding-left: 26px;
     padding-right: 27px;
     padding-top: 19.26px;
-    margin-top: 50px;
-    margin-left: 313px;
+    /* margin-top: 50px; */
+    margin-left: auto;
     margin-right: auto;
   }
+
   #intro .blue-text p {
-    width: 430.59px;
+    max-width: 430.59px;
     height: 113px;
 
     font-family: "Roboto Slab";
@@ -248,12 +257,9 @@
 
   #intro .blue-text .producer-name {
     width: 280.5px;
-
-    font-family: "Roboto";
-    font-style: normal;
     font-weight: 400;
     font-size: 2rem;
-    line-height: 130%;
+    line-height: 1.3;
     margin-top: 22px;
     margin-left: 180px;
     text-align: right;
