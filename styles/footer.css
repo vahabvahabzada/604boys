@@ -122,6 +122,10 @@ footer .copyright {
   footer .contact-container .contact-item {
     margin-bottom: 12px;
   }
+	
+	footer .social-container {
+		margin-bottom: 147px;
+	}
 
   footer .social-container .social-item {
     width: 33px;
@@ -130,5 +134,6 @@ footer .copyright {
 
   footer .copyright {
     font-size: 1.8rem;
+		margin-top: 0;
   }
 }

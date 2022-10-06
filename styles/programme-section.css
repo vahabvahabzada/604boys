@@ -13,6 +13,8 @@
 }
 
 #programme .chart {
+	display: grid;
+	grid-template-rows: min-content;
   max-width: 186px;
   border-radius: 14px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -27,25 +29,27 @@
 }
 
 #programme h2 {
-  /* max-width: 421.7px; */
+  margin-bottom: 46px;
   font-family: "Roboto Slab";
   font-weight: 700;
   font-size: 2.6rem;
   line-height: 1.01;
-  margin-bottom: 46px;
 }
 
 #programme .chart h3 {
+	margin: 5px 10px 12px;
   font-weight: 700;
   font-size: 1.4rem;
   line-height: 1.3;
+	align-self: flex-start;
 }
 
-#programme .about p {
-  margin-top: 14.91px;
+#programme p {
+	margin: 5px 10px 8px;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.3;
+	align-self: flex-end;
 }
 
 /*tablet*/
@@ -65,10 +69,6 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   }
 
-  #programme .chart .about {
-    padding: 8px 10px 13px;
-  }
-
   #programme .img {
     height: 92.66667938232422px;
     width: 231.0875244140625px;
@@ -85,10 +85,9 @@
   #programme .chart h3 {
     font-weight: 700;
     font-size: 1.4rem;
-    margin-bottom: 18.53px;
   }
 
-  #programme .about p {
+  #programme  p {
     font-weight: 400;
     font-size: 12px;
     line-height: 130%;
@@ -109,6 +108,8 @@
   }
 
   #programme .chart {
+		display: grid;
+		grid-template-rows: min-content;
     flex-basis: 31%;
     max-width: 399px;
     border-radius: 30px;
@@ -116,9 +117,10 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   }
 
-  #programme .chart .about {
-    padding: 11px 14px 23px 20px;
-  }
+	#programme .chart  p {
+		margin-bottom: 23px;
+		margin-left: 19px;
+	}
 
   #programme img {
     width: 100%;
@@ -134,11 +136,13 @@
     margin-bottom: 120px;
   }
   #programme .chart h3 {
-    margin-bottom: 42px;
+		align-self: flex-start;
+    margin-left: 19px;
+		margin-top: 12px;
     font-weight: 500;
     font-size: 3rem;
   }
-  #programme .about p {
+  #programme  p {
     margin-top: 32px;
     font-weight: 400;
     font-size: 2.5rem;
