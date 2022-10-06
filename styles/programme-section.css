@@ -99,6 +99,8 @@
 @media (min-width: 1280px) {
   body #programme {
     padding-left: 84px;
+		padding-top: 124px;
+		padding-bottom: 121px;
   }
 
   #programme #charts {

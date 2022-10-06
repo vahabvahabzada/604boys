@@ -95,6 +95,8 @@
 @media (min-width: 1281px) {
   body #passed {
     padding-left: 126px;
+		padding-top: 91px;
+		padding-bottom: 111px;
   }
 
   #passed h2 {

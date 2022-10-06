@@ -186,6 +186,8 @@
 @media (min-width: 1281px) {
   #intro .wrapper {
     max-width: 100%;
+		padding-top: 50px;
+		padding-bottom: 86px;
   }
 
   #intro .details {

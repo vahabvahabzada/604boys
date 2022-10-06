@@ -21,6 +21,10 @@ header img {
 }
 
 @media (min-width: 1280px) {
+	header {
+		padding-bottom: 50px;
+	}
+
   header img {
     width: 112px;
     height: 66px;

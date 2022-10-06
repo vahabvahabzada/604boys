@@ -37,6 +37,10 @@
   }
 }
 @media (min-width: 1281px) {
+	#learning {
+		padding-top: 90px;
+		padding-bottom: 128px;
+	}
   #learning h2 {
     margin-bottom: 21px;
     font-size: 5.5rem;

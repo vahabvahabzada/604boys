@@ -92,6 +92,11 @@
 
 /* Desktop */
 @media (min-width: 1281px) {
+	#course {
+		padding-top: 86px;
+		padding-bottom: 89px;
+	}
+
   #course h2 {
     font-size: 5.5rem;
   }

@@ -101,6 +101,10 @@ footer .copyright {
 }
 
 @media (min-width: 1281px) {
+	footer {
+		padding-top: 50px;
+		padding-bottom: 30px;
+	}
   footer .logo {
     height: 68px;
     margin-bottom: 30px;

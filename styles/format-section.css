@@ -45,6 +45,12 @@
   }
 }
 @media (min-width: 1280px) {
+
+	#format {
+		padding-top: 89px;
+		padding-bottom: 90px;
+	}
+
   #format .box {
     display: flex;
   }
